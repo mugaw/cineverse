@@ -22,7 +22,7 @@ export function TextReveal({
           transition={{
             duration: 0.5,
             delay: i * 0.05,
-            ease: [0.22, 1, 0.36, 1],
+            ease: [0.22, 1, 0.36, 1] as any,
           }}
           className="inline-block mr-[0.25em]"
         >
